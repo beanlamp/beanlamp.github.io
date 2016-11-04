@@ -5,7 +5,7 @@ const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 let config = {
   entry: ['bootstrap-loader', './src/scripts/main.js'],
   output: {
-    path: './dist',
+    path: '.',
     filename: 'bundle.js'
   },
 
@@ -45,7 +45,7 @@ let config = {
       host: 'localhost',
       port: 8080,
       server: {
-        baseDir: ['dist']
+        baseDir: ['.']
       }
     })
 /*
