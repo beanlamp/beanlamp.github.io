@@ -10,9 +10,12 @@
 
 //@import url('')
 
-//$font-family-sans-serif: 
+//$font-family-sans-serif:
+
+$bean-color: rgb(248, 153, 29); // #f8991d
 $font-size-root: 96px;
-$brand-primary:       #f8991d;
+$brand-primary:       $bean-color;
+//$body-color:          $bean-color;
 $font-family-sans-serif:  'gb';
 
 @font-face {
