@@ -1,3 +1,7 @@
 // Import your custom styles here. You have access to all the bootstrap variables. If you require
 // your sass files separately, you will not have access to the bootstrap variables, mixins, clases, etc.
 // Usually this endpoint-file contains list of @imports of your application styles.
+
+div.footer {
+  text-align: center;
+}
