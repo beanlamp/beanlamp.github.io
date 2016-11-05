@@ -12,3 +12,22 @@
 
 //$font-family-sans-serif: 
 $font-size-root: 96px;
+$brand-primary:       #f8991d;
+$font-family-sans-serif:  'gb';
+
+@font-face {
+  font-family: 'gb';
+  src: url('./gb.ttf') format('truetype');
+}
+
+/*
+24pt Gotham Book
+
+14pt Gotham Book for footer
+
+R: 248
+G: 153
+B: 29
+
+Orange
+*/
