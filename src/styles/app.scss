@@ -5,3 +5,12 @@
 div.footer {
   text-align: center;
 }
+
+.navbar-nav > li {
+  border-style: none solid none none;
+  border: 5px red;
+}
+
+.navbar-nav > li:last-of-type {
+  border-style: none;
+}
