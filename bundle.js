@@ -45,7 +45,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(1);
-	module.exports = __webpack_require__(26);
+	module.exports = __webpack_require__(27);
 
 
 /***/ },
@@ -60,7 +60,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports.css = __webpack_require__ (3);
-	module.exports.js = __webpack_require__ (12);
+	module.exports.js = __webpack_require__ (13);
 
 
 /***/ },
@@ -78,11 +78,11 @@
 /* 9 */,
 /* 10 */,
 /* 11 */,
-/* 12 */
+/* 12 */,
+/* 13 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__ (13);
-	__webpack_require__ (15);
+	__webpack_require__ (14);
 	__webpack_require__ (16);
 	__webpack_require__ (17);
 	__webpack_require__ (18);
@@ -93,14 +93,15 @@
 	__webpack_require__ (23);
 	__webpack_require__ (24);
 	__webpack_require__ (25);
+	__webpack_require__ (26);
 
 
 /***/ },
-/* 13 */
+/* 14 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
+	var jQuery = __webpack_require__(15);
 
 	/* ========================================================================
 	 * Bootstrap: transition.js v3.3.7
@@ -165,7 +166,7 @@
 
 
 /***/ },
-/* 14 */
+/* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -10391,11 +10392,11 @@
 
 
 /***/ },
-/* 15 */
+/* 16 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
+	var jQuery = __webpack_require__(15);
 
 	/* ========================================================================
 	 * Bootstrap: alert.js v3.3.7
@@ -10495,11 +10496,11 @@
 
 
 /***/ },
-/* 16 */
+/* 17 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
+	var jQuery = __webpack_require__(15);
 
 	/* ========================================================================
 	 * Bootstrap: button.js v3.3.7
@@ -10630,11 +10631,11 @@
 
 
 /***/ },
-/* 17 */
+/* 18 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
+	var jQuery = __webpack_require__(15);
 
 	/* ========================================================================
 	 * Bootstrap: carousel.js v3.3.7
@@ -10877,11 +10878,11 @@
 
 
 /***/ },
-/* 18 */
+/* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
+	var jQuery = __webpack_require__(15);
 
 	/* ========================================================================
 	 * Bootstrap: collapse.js v3.3.7
@@ -11099,11 +11100,11 @@
 
 
 /***/ },
-/* 19 */
+/* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
+	var jQuery = __webpack_require__(15);
 
 	/* ========================================================================
 	 * Bootstrap: dropdown.js v3.3.7
@@ -11274,11 +11275,11 @@
 
 
 /***/ },
-/* 20 */
+/* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
+	var jQuery = __webpack_require__(15);
 
 	/* ========================================================================
 	 * Bootstrap: modal.js v3.3.7
@@ -11623,11 +11624,11 @@
 
 
 /***/ },
-/* 21 */
+/* 22 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
+	var jQuery = __webpack_require__(15);
 
 	/* ========================================================================
 	 * Bootstrap: tooltip.js v3.3.7
@@ -12153,11 +12154,11 @@
 
 
 /***/ },
-/* 22 */
+/* 23 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
+	var jQuery = __webpack_require__(15);
 
 	/* ========================================================================
 	 * Bootstrap: popover.js v3.3.7
@@ -12271,11 +12272,11 @@
 
 
 /***/ },
-/* 23 */
+/* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
+	var jQuery = __webpack_require__(15);
 
 	/* ========================================================================
 	 * Bootstrap: scrollspy.js v3.3.7
@@ -12453,11 +12454,11 @@
 
 
 /***/ },
-/* 24 */
+/* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
+	var jQuery = __webpack_require__(15);
 
 	/* ========================================================================
 	 * Bootstrap: tab.js v3.3.7
@@ -12618,11 +12619,11 @@
 
 
 /***/ },
-/* 25 */
+/* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
-	var jQuery = __webpack_require__(14);
+	var jQuery = __webpack_require__(15);
 
 	/* ========================================================================
 	 * Bootstrap: affix.js v3.3.7
@@ -12790,19 +12791,19 @@
 
 
 /***/ },
-/* 26 */
+/* 27 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var _module = __webpack_require__(27);
+	var _module = __webpack_require__(28);
 
 	//import { $, jQuery } from 'jquery'
 
 	(0, _module.query)(); //import 'babel-polyfill'
 
 /***/ },
-/* 27 */
+/* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12812,7 +12813,7 @@
 	});
 	exports.query = undefined;
 
-	var _jquery = __webpack_require__(14);
+	var _jquery = __webpack_require__(15);
 
 	var _jquery2 = _interopRequireDefault(_jquery);
 
