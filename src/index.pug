@@ -7,14 +7,15 @@ html(lang="en")
   body
     //nav.navbar.navbar-default
     div.container
-      a.navbar-brand(href="/") Beanlamp
-      ul.navbar-nav.nav
-        li: a(href="#") home
-        li: a(href="#") shop
-        li: a(href="#") about
-        li: a(href="#") contact
-    div.container
+      nav.navbar
+        a.navbar-brand(href="/") Beanlamp
+        ul.navbar-nav.nav
+          li: a(href="#") home
+          li: a(href="#") shop
+          li: a(href="#") about
+          li: a(href="#") contact
       div Rattle that lock
-    div.container.footer
-      | Copyright &copy; BeanLamp&nbsp;
-      script document.write(new Date().getFullYear())
+      footer.footer
+        p
+          | Copyright &copy; BeanLamp&nbsp;
+          script document.write(new Date().getFullYear())
