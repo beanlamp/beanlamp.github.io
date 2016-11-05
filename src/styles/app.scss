@@ -11,11 +11,17 @@ div.footer {
   text-align: center;
 }
 
-.navbar-nav > li {
-  border-style: none solid none none;
-  border-right-width: thin;
+.navbar-brand {
+  font-size: 3em;
 }
 
-.navbar-nav > li:last-of-type {
-  border-style: none;
+.navbar-nav {
+  vertical-align: bottom;
+  li {
+    border-style: none solid none none;
+    border-right-width: thin;
+  }
+  li:last-of-type {
+    border-style: none;
+  }
 }
