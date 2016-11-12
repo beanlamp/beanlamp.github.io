@@ -1,4 +1,4 @@
-//const webpack = require('webpack')  // for uglifyjs
+const webpack = require('webpack')  // for uglifyjs
 const HtmlWebpackPlugin = require('html-webpack-plugin')  // for pug
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')  // for exporting css
@@ -35,6 +35,11 @@ let config = {
         loader: 'file'
       }
       ,{
+        test: /\.(png|jpg)$/,
+        loader: 'file?name=[name].[ext]',
+        include: /(src\/)/
+      }
+      ,{
         test: /\.css$/,
         loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
       }
@@ -53,8 +58,7 @@ let config = {
       server: {
         baseDir: ['.']
       }
-    })
-/*
+    })/*
     , new webpack.optimize.UglifyJsPlugin({
       compress: {
         warnings: false
@@ -62,8 +66,7 @@ let config = {
       output: {
         comments: false
       }
-    })
-*/
+    })*/
   ]
 }
 

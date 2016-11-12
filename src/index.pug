@@ -6,16 +6,26 @@ html(lang="en")
     title= "Beanlamp"
   body
     //nav.navbar.navbar-default
+    nav.navbar
+      .container
+        .navbar-header    
+          a(href="/")
+            div Bean
+            div Lamp
+          button(type='button', data-toggle='collapse', data-target='#collapse-menu', aria-expanded='false' style='background-color="red"').navbar-toggle.collapsed
+            //span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+        .collapse.navbar-collapse#collapse-menu      
+          ul.nav.navbar-nav.navbar-right
+            li: a(href="#") home
+            li: a(href="#") shop
+            li: a(href="#") about
+            li: a(href="#") contact
     div.container
-      nav.navbar
-        a.navbar-brand(href="/") Beanlamp
-        ul.navbar-nav.nav
-          li: a(href="#") home
-          li: a(href="#") shop
-          li: a(href="#") about
-          li: a(href="#") contact
-      div Rattle that lock
-      footer.footer
-        p
-          | Copyright &copy; BeanLamp&nbsp;
-          script document.write(new Date().getFullYear())
+      div: img(src='lamp.png', alt='Bean Lamp').img-responsive
+    footer.text-center
+      p
+        | Copyright &copy; BeanLamp&nbsp;
+        script document.write(new Date().getFullYear())

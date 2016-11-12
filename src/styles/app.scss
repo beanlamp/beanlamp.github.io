@@ -11,8 +11,9 @@ body {
   color: $bean-color;
 }
 
-.footer {
-  text-align: center;
+.navbar-toggle .icon-bar {
+  background-color: $bean-color;
+  //font-family: 'sans serif';
 }
 
 .navbar-brand {
@@ -20,7 +21,6 @@ body {
 }
 
 .navbar-nav {
-  vertical-align: bottom;
   li {
     border-style: none solid none none;
     border-right-width: thin;
