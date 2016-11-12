@@ -12802,12 +12802,19 @@
 
 	// images (loaders configured in config file)
 	__webpack_require__(28);
+	__webpack_require__(29);
 
 /***/ },
 /* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "img/lamp.png";
+
+/***/ },
+/* 29 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "img/brand.png";
 
 /***/ }
 /******/ ]);

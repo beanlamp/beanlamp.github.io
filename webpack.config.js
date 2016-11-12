@@ -7,7 +7,7 @@ let config = {
   entry: ['bootstrap-loader', './src/scripts/main.js'],
   output: {
     path: '.',
-    filename: 'bundle.js'
+    filename: 'scripts/bundle.js'
   },
 
   module: {
@@ -36,8 +36,8 @@ let config = {
       }
       ,{
         test: /\.(png|jpg)$/,
-        loader: 'file?name=[name].[ext]',
-        include: /(src\/)/
+        loader: 'file?name=img/[name].[ext]',
+        include: /src\/img/
       }
       ,{
         test: /\.css$/,
