@@ -9,20 +9,20 @@ html(lang="en")
     nav.navbar
       .container
         .navbar-header
-          a(href="/"): img(src="img/brand.png", alt="BeanLamp", width="50%", height="50%")
+          a(href="/"): img(src="img/brand.png", alt="BeanLamp", width="37%", height="37%")
           button(type='button', data-toggle='collapse', data-target='#collapse-menu', aria-expanded='false' style='background-color="red"').navbar-toggle.collapsed
             //span.sr-only Toggle navigation
             span.icon-bar
             span.icon-bar
             span.icon-bar
         .collapse.navbar-collapse#collapse-menu      
-          ul.nav.navbar-nav
+          ul.nav.navbar-nav.navbar-right
             li: a(href="#") home
             li: a(href="#") shop
             li: a(href="#") about
             li: a(href="#") contact
     div.container
-      div: img(src='img/lamp.png', alt='Bean Lamp').img-responsive
+      div: img(src='img/lamp.png', alt='Bean Lamp').img-responsive.center-block
     footer.text-center
       p
         | Copyright &copy; BeanLamp&nbsp;
